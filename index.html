@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 
 <head>
 	<title>HomePage</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230210124842">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230210130435">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="header__actions actions">
-				<a href="tel:380667876676" type class="actions__button-phoone _icon-big-phone"></a>
+				<a href="tel:380667876676" class="actions__button-phoone _icon-big-phone"></a>
 				<button type="button" class="actions__button-chat _icon-message"></button>
 			</div>
 		</header>
@@ -50,10 +50,10 @@
 							<button class="title-main__button button">Зробити замовлення</button>
 							<nav class="title-main__social social">
 								<ul class="social__list">
-									<div class="social__item"><a href="" class="social__link _icon-insta"></a></div>
-									<div class="social__item"><a href="" class="social__link _icon-telega"></a></div>
-									<div class="social__item"><a href="" class="social__link _icon-youtube"></a></div>
-									<div class="social__item"><a href="" class="social__link _icon-tiktok"></a></div>
+									<li class="social__item"><a href="#" class="social__link _icon-insta"></a></li>
+									<li class="social__item"><a href="#" class="social__link _icon-telega"></a></li>
+									<li class="social__item"><a href="#" class="social__link _icon-youtube"></a></li>
+									<li class="social__item"><a href="#" class="social__link _icon-tiktok"></a></li>
 								</ul>
 							</nav>
 						</div>
@@ -571,7 +571,7 @@
 						<form class="call-back__forms forms" action="files/sendmail/sendmail.php" method="POST">
 							<input type="text" name="form[email]" data-error="Error" placeholder="Ваше ім'я" class="forms__name">
 							<input type="tel" name="form[email]" data-error="Error" placeholder="Ваш номер телефону" class="forms__phone">
-							<input type="datetime-local" name="form[email]" data-error="Error" placeholder="Зручний час для дзвінка" class="forms__time">
+							<input type="datetime-local" name="form[email]" data-error="Error" class="forms__time">
 							<button type="submit" class="forms__button button">Надіслати</button>
 						</form>
 						<div class="call-back__text">Натискаючи на кнопку «Надіслати», ви погоджуєтесь з умовами Обробки
@@ -663,7 +663,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230210124842"></script>
+	<script src="js/app.min.js?_v=20230210130435"></script>
 </body>
 
 </html>
